@@ -18,6 +18,7 @@ Controller:: Controller()
 void Controller:: start()
 {
     strVector();
+    intVector();
 }
 
 string Controller:: strVector()
