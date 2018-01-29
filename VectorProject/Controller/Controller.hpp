@@ -11,11 +11,13 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
 class Controller
 {
+public:
     Controller();
     void start();
     string strVector();
