@@ -10,11 +10,16 @@
 #define Controller_hpp
 
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 class Controller
 {
     Controller();
     void start();
+    string strVector();
+    int intVector();
 };
 
 #endif /* Controller_hpp */

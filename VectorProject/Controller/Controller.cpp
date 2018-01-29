@@ -8,6 +8,8 @@
 
 #include "Controller.hpp"
 
+using namespace std;
+
 Controller:: Controller()
 {
     
@@ -15,8 +17,18 @@ Controller:: Controller()
 
 void Controller:: start()
 {
-    
+    strVector();
 }
 
+string Controller:: strVector()
+{
+    
+    
+    return "0";
+}
 
-
+int Controller:: intVector()
+{
+    
+    return 1;
+}
